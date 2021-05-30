@@ -3,7 +3,7 @@ import os
 import struct
 
 # syntax: python3 /path/to/unpackpka.py /path/to/assets.pka /path/to/destination/directory
-# Destination directory must exist. If it is omitted, it will use current directory instead
+# Destination directory must exist. If it is omitted, it will use dirname of input file instead
 
 with open(sys.argv[1], "rb") as f:
 	pka_header, = struct.unpack("<I", f.read(4))
