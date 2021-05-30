@@ -1,4 +1,5 @@
 import sys
+import os
 import struct
 
 # syntax: python3 /path/to/unpackpka.py /path/to/assets.pka /path/to/destination/directory
@@ -31,7 +32,7 @@ with open(sys.argv[1], "rb") as f:
 			rebased_file_entry.append(rebased_file_entry_start) # append the new offset
 			rebased_file_entry_start += rebased_file_entry[1]
 			rebased_package_file_entries[file_entry[0]] = rebased_file_entry
-		with open(("." if len(sys.argv) <= 2 else sys.argv[2]) + "/" + package_name, "wb") as wf:
+		with open((os.path.dirname(sys.argv[1]) if len(sys.argv) <= 2 else sys.argv[2]) + "/" + package_name, "wb") as wf:
 			wf.write(b"\x00\x00\x00\x00")
 			wf.write(struct.pack("<I", len(package_file_entries)))
 			for file_entry_name in rebased_package_file_entries.keys():
