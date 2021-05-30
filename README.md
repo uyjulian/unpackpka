@@ -4,7 +4,7 @@ Unpacks `.pka` files to `.pkg` files.
 
 # Usage
 
-First, download the Win32 version.  
+First, download and extract the [Win32 version](https://github.com/uyjulian/unpackpka/releases/download/latest/unpackpka-win32.zip).  
 Afterwards, drag and drop a single `.pka` file onto the executable.  
 `.pkg` files will be output in the same directory as `.pkg`.  
 
