@@ -2,6 +2,10 @@
 
 Unpacks `.pka` files to `.pkg` files.
 
+## Modding help and resources
+
+See [Trails Research Group](https://github.com/Trails-Research-Group) for more resources to assist in modding the game.  
+
 ## Usage
 
 First, download and extract the [Win32 version](https://github.com/uyjulian/unpackpka/releases/latest/download/unpackpka-win32.zip).  
