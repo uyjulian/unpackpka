@@ -22,12 +22,12 @@ Compatibility
 -------------
 
 | The following games are known to be compatible with this program:
-| \* 英雄伝説: 閃の軌跡 III / Eiyuu Densetsu: Sen no Kiseki III / The
-  Legend of Heroes: Trails of Cold Steel III (PC, Switch) \* 英雄伝説:
-  閃の軌跡 IV / Eiyuu Densetsu: Sen no Kiseki IV / The Legend of Heroes:
-  Trails of Cold Steel IV (PC, Switch) \* 英雄伝説: 創の軌跡 / Eiyuu
-  Densetsu: Hajimari no Kiseki / The Legend of Heroes: Trails into
-  Reverie (PC, Switch)
+* 英雄伝説: 閃の軌跡 III / Eiyuu Densetsu: Sen no Kiseki III / The
+  Legend of Heroes: Trails of Cold Steel III (PC, Switch)
+* 英雄伝説: 閃の軌跡 IV / Eiyuu Densetsu: Sen no Kiseki IV / The
+  Legend of Heroes: Trails of Cold Steel IV (PC, Switch)
+* 英雄伝説: 創の軌跡 / Eiyuu Densetsu: Hajimari no Kiseki / The
+  Legend of Heroes: Trails into Reverie (PC, Switch)
 
 License
 -------
